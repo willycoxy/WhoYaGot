@@ -1,0 +1,11 @@
+.logo {
+  height: 32px;
+  margin: 16px;
+  background: url("../../../../img/logo-no-background.png");
+  background-size: 170px 30px;
+  background-repeat: no-repeat;
+}
+
+.site-layout .site-layout-background {
+  background: rgb(255, 255, 255);
+}
