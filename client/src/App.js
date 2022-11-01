@@ -9,6 +9,7 @@ import Signup from './components/Signup/Signup';
 import Login from './components/Login/Login';
 import Home from './pages/Home';
 import NoMatch from './pages/NoMatch';
+import AppNavBar from './components/NavBar/NavBar';
 
 const httpLink = createHttpLink({
   uri: '/graphql',
@@ -35,7 +36,7 @@ function App() {
     
       <ApolloProvider client={client}>
         <Router> 
-          <Header />
+          <AppNavBar />
             <div className = "container" >
               <Routes>
                 <Route path="/" exact element={<Home></Home>}></Route>

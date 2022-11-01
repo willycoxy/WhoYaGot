@@ -1,5 +1,8 @@
 import 'antd/dist/antd.min.css'
 import './NavBar.css'
+import Sens from './senators.png'
+import Leafs from './leafs.png'
+import Flames from './flames.png'
 import {
   DesktopOutlined,
   FileOutlined,
@@ -21,9 +24,9 @@ function getItem(label, key, icon, children) {
 }
 const items = [
   getItem('Players','sub', <TeamOutlined />, [
-    getItem('Senators','1'),
-    getItem('Maple Leafs', '2'),
-    getItem('Flames', '3'),
+    getItem('Senators','1',<img src={Sens} width='40' height='40' />),
+    getItem('Maple Leafs','2',<img src={Leafs} width='40' height='35' />),
+    getItem('Flames', '3', <img src={Flames} width='40' height='30' />),
   ]),
   getItem('My Team', 'sub2', <UserOutlined />, [getItem('Team 1', '6'), getItem('Team 2', '8')]),
   getItem('Users Teams', 'sub3', <UserOutlined />),
