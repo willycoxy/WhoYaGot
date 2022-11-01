@@ -9,12 +9,14 @@ import {
   PieChartOutlined,
   TeamOutlined,
   UserOutlined,
-  PoweroffOutlined
+  PoweroffOutlined,
+  LoginOutlined
 } from '@ant-design/icons';
 import { Breadcrumb, Layout, Menu } from 'antd';
 import React, { useState } from 'react';
 import Home from '../../pages/Home';
 import { Link } from  "react-router-dom"
+import Avatar from '@mui/material/Avatar';
 
 const { Header, Content, Footer, Sider } = Layout;
 function getItem(label, key, icon, children) {
@@ -27,14 +29,14 @@ function getItem(label, key, icon, children) {
 }
 const items = [
   getItem('Players','sub', <TeamOutlined />, [
-    getItem('Senators','1',<img src={Sens} width='40' height='40' />),
-    getItem('Maple Leafs','2',<img src={Leafs} width='40' height='35' />),
-    getItem('Flames', '3', <img src={Flames} width='40' height='30' />),
+    getItem('Senators','1',<Link to="/senators"><img src={Sens} width='40' height='40' /></Link>),
+    getItem('Maple Leafs','2', <Link to="/leafs"><img src={Leafs} width='40' height='35' /></Link>),
+    getItem('Flames', '3', <Link to="/flames"><img src={Flames} width='40' height='30' /></Link>),
   ]),
   getItem('My Team', 'sub2', <UserOutlined />, [getItem('Team 1', '6'), getItem('Team 2', '8')]),
   getItem('Users Teams', 'sub3', <UserOutlined />),
-  getItem('Signup', 'sub4', <Link to="/signup"></Link>),
-  getItem('Login', 'sub5', <Link to="/login"></Link>),
+  getItem('Signup', 'sub4', <Link to="/signup"><LoginOutlined /></Link>),
+  getItem('Login', 'sub5', <Link to="/login"><LoginOutlined /></Link>),
   getItem('Signout', 'sub6', <PoweroffOutlined />),
 ];
 const AppNavBar = () => {
