@@ -1,0 +1,692 @@
+[{
+  "_id": {
+    "$oid": "635d925c8b07177944301e03"
+  },
+  "players": [
+    {
+      "_id": {
+        "$oid": "635d925d8b07177944301e67"
+      },
+      "TeamID": 1,
+      "PlayerID": 30000065,
+      "Name": "Patrice Bergeron",
+      "Team": "BOS",
+      "Position": "C",
+      "FantasyPoints": 35.5,
+      "__v": 0
+    }
+  ],
+  "username": "Molly48",
+  "email": "Molly48_Waters59@hotmail.com",
+  "password": "$2b$10$IUzAxBGriA0R.6swY0PFQu8XIK.BXt8m4/i1nmecUiNPQnVzxz0hG",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635d925c8b07177944301e07"
+  },
+  "players": [
+    {
+      "_id": {
+        "$oid": "635d815b9cb59a8990fbba60"
+      },
+      "TeamID": 1,
+      "PlayerID": 30000691,
+      "Name": "Nick Foligno",
+      "Team": "BOS",
+      "Position": "LW",
+      "FantasyPoints": 14.2,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "635d815b9cb59a8990fbba4e"
+      },
+      "TeamID": 1,
+      "PlayerID": 30000065,
+      "Name": "Patrice Bergeron",
+      "Team": "BOS",
+      "Position": "C",
+      "FantasyPoints": 35.5,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "635d815b9cb59a8990fbba5d"
+      },
+      "TeamID": 1,
+      "PlayerID": 30000607,
+      "Name": "David Pastrnak",
+      "Team": "BOS",
+      "Position": "RW",
+      "FantasyPoints": 45.1,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "635d815b9cb59a8990fbba57"
+      },
+      "TeamID": 1,
+      "PlayerID": 30000525,
+      "Name": "Mike Reilly",
+      "Team": "BOS",
+      "Position": "D",
+      "FantasyPoints": 10.4,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "635d815b9cb59a8990fbba6f"
+      },
+      "TeamID": 1,
+      "PlayerID": 30001088,
+      "Name": "Brandon Carlo",
+      "Team": "BOS",
+      "Position": "D",
+      "FantasyPoints": 3.5,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "635d815b9cb59a8990fbba99"
+      },
+      "TeamID": 2,
+      "PlayerID": 30000432,
+      "Name": "Craig Anderson",
+      "Team": "BUF",
+      "Position": "G",
+      "FantasyPoints": 14,
+      "__v": 0
+    }
+  ],
+  "username": "Josue67",
+  "email": "Josue6785@yahoo.com",
+  "password": "$2b$10$BgtLarO3mdIwL7DbZLsv.OccZ.V5pFZff3l4mlas69FPCSQWfFwca",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635d925c8b07177944301e04"
+  },
+  "players": [],
+  "username": "Katlyn85",
+  "email": "Katlyn8550@gmail.com",
+  "password": "$2b$10$EmC8w39qCWwmxxHyn/AOaeLlCZZOC6s/Gcpj5YbJHVdajgeuNnRAq",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635d925c8b07177944301e05"
+  },
+  "players": [],
+  "username": "Lessie_Kautzer61",
+  "email": "Lessie_Kautzer61_Walker81@hotmail.com",
+  "password": "$2b$10$QTRaDuDDhI5mZwdxDg2bFO/uYLMgRz9bau3gpu2vMwjDhkNGr2Wse",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635d925c8b07177944301e06"
+  },
+  "players": [],
+  "username": "Elton_Heaney",
+  "email": "Elton_Heaney.Kemmer6@yahoo.com",
+  "password": "$2b$10$bO9No74FLyqblJmLv3UQfekziHZcSsiAlIjYp9Ziau4QsripxZRZK",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635d925c8b07177944301e08"
+  },
+  "players": [],
+  "username": "Jaron98",
+  "email": "Jaron98_Will72@hotmail.com",
+  "password": "$2b$10$Ryb7/LOh6kkrc9uYbvwbBOTpTWdBpjmaBAZpG9Mc2YgYKTPsgKiY6",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635d925c8b07177944301e0a"
+  },
+  "players": [],
+  "username": "Berta.Schmeler15",
+  "email": "Berta.Schmeler15_Hackett93@hotmail.com",
+  "password": "$2b$10$VY9hrmgAN2UUVzYtmrhk9utAionERHry1xnq9vgYyomUH2aKbugva",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635d925c8b07177944301e09"
+  },
+  "players": [],
+  "username": "Colt.Windler",
+  "email": "Colt.Windler_Corwin@hotmail.com",
+  "password": "$2b$10$G4iO2dCItK.tOYJZwKcqr.yZ1ypymaLsQ6E.QBMWylKiGGtkpG6..",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635d925c8b07177944301e0b"
+  },
+  "players": [],
+  "username": "Kaley35",
+  "email": "Kaley35_Carroll@yahoo.com",
+  "password": "$2b$10$uoiESsWFyV64q8E0mA2./erV2m2OQZG/nNAKY9z1DO/2rNER62bkG",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635d925c8b07177944301e0e"
+  },
+  "players": [
+    {
+      "_id": {
+        "$oid": "635d815b9cb59a8990fbba60"
+      },
+      "TeamID": 1,
+      "PlayerID": 30000691,
+      "Name": "Nick Foligno",
+      "Team": "BOS",
+      "Position": "LW",
+      "FantasyPoints": 14.2,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "635d815b9cb59a8990fbba4e"
+      },
+      "TeamID": 1,
+      "PlayerID": 30000065,
+      "Name": "Patrice Bergeron",
+      "Team": "BOS",
+      "Position": "C",
+      "FantasyPoints": 35.5,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "635d815b9cb59a8990fbba5d"
+      },
+      "TeamID": 1,
+      "PlayerID": 30000607,
+      "Name": "David Pastrnak",
+      "Team": "BOS",
+      "Position": "RW",
+      "FantasyPoints": 45.1,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "635d815b9cb59a8990fbba57"
+      },
+      "TeamID": 1,
+      "PlayerID": 30000525,
+      "Name": "Mike Reilly",
+      "Team": "BOS",
+      "Position": "D",
+      "FantasyPoints": 10.4,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "635d815b9cb59a8990fbba6f"
+      },
+      "TeamID": 1,
+      "PlayerID": 30001088,
+      "Name": "Brandon Carlo",
+      "Team": "BOS",
+      "Position": "D",
+      "FantasyPoints": 3.5,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "635d815b9cb59a8990fbba99"
+      },
+      "TeamID": 2,
+      "PlayerID": 30000432,
+      "Name": "Craig Anderson",
+      "Team": "BUF",
+      "Position": "G",
+      "FantasyPoints": 14,
+      "__v": 0
+    }
+  ],
+  "username": "Alta.Kemmer20",
+  "email": "Alta.Kemmer20.Gibson@hotmail.com",
+  "password": "$2b$10$YycYBvqyFqynygukZ7uTZ.o9lBrHq8UGmgXqQ3Ld69PEdOaIP2RoC",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635d925c8b07177944301e0c"
+  },
+  "players": [],
+  "username": "Bryana.Hackett",
+  "email": "Bryana.Hackett94@yahoo.com",
+  "password": "$2b$10$HRqsHKSkZDsGPv4J6j/4b.jZH99eumXOahuMETQLeXyKr8rAxsDQq",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635d925c8b07177944301e0d"
+  },
+  "players": [],
+  "username": "Madge.Feil",
+  "email": "Madge.Feil_Fadel@yahoo.com",
+  "password": "$2b$10$k7X51ciThKBN0IZ4jAWou.RBakX02Fo0oRh22wqKq/U.ib6owwHHC",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635d925c8b07177944301e0f"
+  },
+  "players": [],
+  "username": "Vladimir_Block",
+  "email": "Vladimir_Block_Feil41@hotmail.com",
+  "password": "$2b$10$OiykoZEBoFHAj//avlFJp.0PbFBRcRmXvDr8haTFLVjt231gJGLbi",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635d925c8b07177944301e10"
+  },
+  "players": [],
+  "username": "Mona_Hilll",
+  "email": "Mona_Hilll_Zemlak@hotmail.com",
+  "password": "$2b$10$HXj8xdrZAWGywj.0QiIw9.lb96ksbml8K9DBANdRqqE1BVJgA4A.q",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635d925c8b07177944301e11"
+  },
+  "players": [],
+  "username": "Alice_Simonis",
+  "email": "Alice_Simonis8@gmail.com",
+  "password": "$2b$10$kC8XaIZ51GncLSpYlHEvZO.s9QP1etr0ax/TZERoUNgZGvD.uml5a",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635d925c8b07177944301e12"
+  },
+  "players": [],
+  "username": "Ayana.Bogisich",
+  "email": "Ayana.Bogisich.Stoltenberg@yahoo.com",
+  "password": "$2b$10$dbMDl8j.jl77iMv2xYJT5uGDovJtYH6gV6Uo2GIYQR6uY13d66J5O",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635d925c8b07177944301e13"
+  },
+  "players": [],
+  "username": "Annabelle79",
+  "email": "Annabelle7973@hotmail.com",
+  "password": "$2b$10$6FWgqx8bQ99j4BbelrhrIu5uyelgySQ/mBWtnkk7572Es6JpK7YF.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635d925c8b07177944301e14"
+  },
+  "players": [
+    {
+      "_id": {
+        "$oid": "635d815b9cb59a8990fbba60"
+      },
+      "TeamID": 1,
+      "PlayerID": 30000691,
+      "Name": "Nick Foligno",
+      "Team": "BOS",
+      "Position": "LW",
+      "FantasyPoints": 14.2,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "635d815b9cb59a8990fbba4e"
+      },
+      "TeamID": 1,
+      "PlayerID": 30000065,
+      "Name": "Patrice Bergeron",
+      "Team": "BOS",
+      "Position": "C",
+      "FantasyPoints": 35.5,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "635d815b9cb59a8990fbba5d"
+      },
+      "TeamID": 1,
+      "PlayerID": 30000607,
+      "Name": "David Pastrnak",
+      "Team": "BOS",
+      "Position": "RW",
+      "FantasyPoints": 45.1,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "635d815b9cb59a8990fbba57"
+      },
+      "TeamID": 1,
+      "PlayerID": 30000525,
+      "Name": "Mike Reilly",
+      "Team": "BOS",
+      "Position": "D",
+      "FantasyPoints": 10.4,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "635d815b9cb59a8990fbba6f"
+      },
+      "TeamID": 1,
+      "PlayerID": 30001088,
+      "Name": "Brandon Carlo",
+      "Team": "BOS",
+      "Position": "D",
+      "FantasyPoints": 3.5,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "635d815b9cb59a8990fbba99"
+      },
+      "TeamID": 2,
+      "PlayerID": 30000432,
+      "Name": "Craig Anderson",
+      "Team": "BUF",
+      "Position": "G",
+      "FantasyPoints": 14,
+      "__v": 0
+    }
+  ],
+  "username": "Tyree17",
+  "email": "Tyree17_Tillman@yahoo.com",
+  "password": "$2b$10$QcttYiteQNfUCoBJGu25rOUml9.gEIoAgSKfGXx0eYwVI475/c2pq",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635d925c8b07177944301e15"
+  },
+  "players": [],
+  "username": "Eldridge42",
+  "email": "Eldridge4262@yahoo.com",
+  "password": "$2b$10$fD.KEhwNQFrHA9jlfCHHfeRicy7miiYvgfbrRoY8O.S9f2Ehu4cki",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635d925c8b07177944301e16"
+  },
+  "players": [],
+  "username": "Natasha_Beier59",
+  "email": "Natasha_Beier5944@hotmail.com",
+  "password": "$2b$10$PlNSspQCMNCyuHyp79iaPuZz9hnWekKRdVrDazhxlhUQW00OREpl2",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635d925c8b07177944301e17"
+  },
+  "players": [],
+  "username": "Kory_Roob",
+  "email": "Kory_Roob.Kuhic9@yahoo.com",
+  "password": "$2b$10$0oIWZQ5/m67opW/bJdUfKuia03NYuoWsVHgMHxylr0pTiX/g7YQK6",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635d925c8b07177944301e18"
+  },
+  "players": [],
+  "username": "Gianni_Kiehn14",
+  "email": "Gianni_Kiehn14_Weissnat@gmail.com",
+  "password": "$2b$10$mvA4IUOFJdlEFl8tT4wE.OZlENHURxFm7mH9fEUtAgghHTs4eiLp6",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635d925c8b07177944301e19"
+  },
+  "players": [],
+  "username": "Tomas93",
+  "email": "Tomas93_Cremin@gmail.com",
+  "password": "$2b$10$2yVtK0PJIeny8x56cwELVecm2EnaNOj0Mo6pWwOhGCOgpNAZXC8.K",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635d925c8b07177944301e1a"
+  },
+  "players": [],
+  "username": "Damion87",
+  "email": "Damion87.Wuckert@yahoo.com",
+  "password": "$2b$10$PIf3nXfEuVrotQKGnhBQ5OWV1WJ.AD.BSpdLppD7aSv6W3LfTH1Ta",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635d925c8b07177944301e1b"
+  },
+  "players": [],
+  "username": "Chanel_Windler",
+  "email": "Chanel_Windler.Zemlak@gmail.com",
+  "password": "$2b$10$tk89mH1r3bjGkk7Ii83BE.IW1zYyL6eZ5gBu2r1SshH7fOmWW9PEu",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635d925c8b07177944301e1c"
+  },
+  "players": [],
+  "username": "Jody.Eichmann",
+  "email": "Jody.Eichmann_Roberts19@hotmail.com",
+  "password": "$2b$10$hCuSJrScOBCx3r9ANArqR.vbYaOWZuKKMZXjqj5rox0lbNndaCupa",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635d925c8b07177944301e1d"
+  },
+  "players": [],
+  "username": "Delbert.Cruickshank5",
+  "email": "Delbert.Cruickshank5.Bradtke@gmail.com",
+  "password": "$2b$10$9W1trV51dfalxjf3Qfoteu96hW6q7wrvUO78OJmRgIWRfh29Uc0.y",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635d925c8b07177944301e1e"
+  },
+  "players": [],
+  "username": "Reggie_Lang",
+  "email": "Reggie_Lang_Dicki@gmail.com",
+  "password": "$2b$10$kiY5m/Yz/Z0l.Vew7Pqp4.tPmZ0rGd3U.ZJqtASGhDOhEiDB6e/Ha",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635d925c8b07177944301e1f"
+  },
+  "players": [],
+  "username": "Meagan_Cummings36",
+  "email": "Meagan_Cummings36_Kautzer@gmail.com",
+  "password": "$2b$10$fcT5TPe.A3WmsygplSPhYu8sDzeqtKv78j9oXgg6wAhrmh39NFwAO",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635d925c8b07177944301e20"
+  },
+  "players": [],
+  "username": "Shanelle_Hermann38",
+  "email": "Shanelle_Hermann38_OConner@hotmail.com",
+  "password": "$2b$10$xNfFsULB7jm8hjoz5386i.RPWtmEWYSlRRFkD2Z1bU44Qvxxm41h2",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635d925c8b07177944301e22"
+  },
+  "players": [],
+  "username": "Joshuah.Morissette",
+  "email": "Joshuah.Morissette.Kassulke@hotmail.com",
+  "password": "$2b$10$Ld2uEMaBleng4z/5VQDCzucCkz86gjT.GSU1s3P.HX/lb9XFA8mgS",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635d925c8b07177944301e21"
+  },
+  "players": [],
+  "username": "Mervin2",
+  "email": "Mervin2_Wiegand@gmail.com",
+  "password": "$2b$10$UawecMuwcsS/zyRyqY0u6.wsoU1mXuSFzujvFO9NusZ31jZ3JPjd2",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635d925c8b07177944301e23"
+  },
+  "players": [],
+  "username": "Jacinto_Farrell",
+  "email": "Jacinto_Farrell88@yahoo.com",
+  "password": "$2b$10$S4vLfkfLyluKMuaxVMlAiOyVCGERstXeAzid5SAkjrYGqEPb.6hG2",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635d925c8b07177944301e24"
+  },
+  "players": [],
+  "username": "Dee_Bogisich",
+  "email": "Dee_Bogisich.Homenick23@gmail.com",
+  "password": "$2b$10$pL9y.udTmG9D9/7QL.UUTe7Z5BHly5HZkn.XyGKDTuVve9Zb6CDOK",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635d925c8b07177944301e25"
+  },
+  "players": [],
+  "username": "Taylor.Wolff",
+  "email": "Taylor.Wolff_Kris@hotmail.com",
+  "password": "$2b$10$DyXdH6SHp3c59T9PRyr5Ke4JnFJy8y33rLh3Tyb3WKkoDMmIrVoiq",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635d925c8b07177944301e26"
+  },
+  "players": [],
+  "username": "Fern.Schiller",
+  "email": "Fern.Schiller_Connelly48@yahoo.com",
+  "password": "$2b$10$GQLBcMVQW2rPrNPrVqnBM.pHtdPYGde0xLiKXouFp1H./jY3AXc9W",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635d925c8b07177944301e27"
+  },
+  "players": [],
+  "username": "Ora46",
+  "email": "Ora463@gmail.com",
+  "password": "$2b$10$RkRX6CRDUFRfcGVzuqevZuA62TZhqyufJNSaxTrvaVWdCVvDO9pou",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635d925c8b07177944301e28"
+  },
+  "players": [],
+  "username": "Freida_Yost93",
+  "email": "Freida_Yost9389@hotmail.com",
+  "password": "$2b$10$vjG0ctbumPJIs3Tfawo/NOgEOLuMh07VqHYfmGZ3sCzAW0gqJGv0S",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635d925c8b07177944301e29"
+  },
+  "players": [],
+  "username": "Kiel_Ullrich",
+  "email": "Kiel_Ullrich16@yahoo.com",
+  "password": "$2b$10$X16Rbgg2Vx7fMiehZ7.mR.T38lLVbwgmUOCk4w6nJfwpRLkDjfA.e",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635d925c8b07177944301e2a"
+  },
+  "players": [],
+  "username": "Rosario.Howe",
+  "email": "Rosario.Howe66@yahoo.com",
+  "password": "$2b$10$DHO/KSzUVTkBA34uiWVKA.swDU4oOPX5/i4.tUVbvcNyUzooXaGya",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635d925c8b07177944301e2b"
+  },
+  "players": [],
+  "username": "Dwight.Reilly",
+  "email": "Dwight.Reilly.Krajcik52@gmail.com",
+  "password": "$2b$10$DkTdRF0lZQTz1ufxzq6HjuWfUagzHItKK0BcEhQb09AGjdGgZhc.y",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635d925c8b07177944301e2c"
+  },
+  "players": [],
+  "username": "Rashawn93",
+  "email": "Rashawn9326@gmail.com",
+  "password": "$2b$10$hk3kbsDk/YaBITCmOgEF.uivJld4b7aTEkFhFWxbQhXCrhhUktTwO",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635d925c8b07177944301e2d"
+  },
+  "players": [],
+  "username": "Gia56",
+  "email": "Gia56_Bahringer@yahoo.com",
+  "password": "$2b$10$ypZLoy1A4AwpX3XDRHa6QuqD1/Cl9x9EOrVigTRg6QgdxywlaZBWW",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635d925c8b07177944301e2e"
+  },
+  "players": [],
+  "username": "Damien_Ullrich",
+  "email": "Damien_Ullrich_Turcotte5@gmail.com",
+  "password": "$2b$10$WCCHV8p4Ck89JAfndT7ZWe1Mvz74FYcnriIIPQHl4NnUpbcAlOstK",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635d925c8b07177944301e2f"
+  },
+  "players": [],
+  "username": "Osbaldo.Jerde",
+  "email": "Osbaldo.Jerde13@yahoo.com",
+  "password": "$2b$10$unlnZkIwhGQ78fzCA11RROa9Jvol0pNj2fOvYaxaiySkMgoRGJ3bu",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635d925c8b07177944301e30"
+  },
+  "players": [],
+  "username": "Sammy.Kassulke74",
+  "email": "Sammy.Kassulke74.Gottlieb56@hotmail.com",
+  "password": "$2b$10$xo5JOp2ucuDNvTTeIGgVsOQnJvZ8t6v4mexsxeelVDlvJihKCi03m",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635d925c8b07177944301e31"
+  },
+  "players": [],
+  "username": "Shyann.Crist57",
+  "email": "Shyann.Crist57.Mayer50@yahoo.com",
+  "password": "$2b$10$cxK9FpyLRyK4ank6ZWQMjuavS94Q87sM39kzcwTrdc4MHxLE8H/IK",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635d925c8b07177944301e32"
+  },
+  "players": [],
+  "username": "Anjali5",
+  "email": "Anjali5.Bergnaum@yahoo.com",
+  "password": "$2b$10$ybVYwPBBfqx1ZgjOg7bfWuTK4aMrUPEqBWBPYQz3UYZ0dFjoJ7ksK",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635d925c8b07177944301e33"
+  },
+  "players": [],
+  "username": "Daija.Rempel",
+  "email": "Daija.Rempel_Schuster@yahoo.com",
+  "password": "$2b$10$5CxrleAFdUs6fK5KXTRr5uN8CmWbqthpWqHKfu6WXpglmG.e3T1JK",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635d925c8b07177944301e34"
+  },
+  "players": [],
+  "username": "Donny21",
+  "email": "Donny2191@yahoo.com",
+  "password": "$2b$10$/ruaUyO9fcwAoli/CjUnVOYovIJqf8ga5OFUH2FjpfBgPk9/vrPuG",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635d925d8b07177944302485"
+  },
+  "players": [],
+  "username": "Holt",
+  "email": "eholt@testmail.com",
+  "password": "$2b$10$f/hhRAt3/rec./bRt6m8pOzw9yZz5.G/Ali65oyLitqCEYQHXUFNq",
+  "__v": 0
+}]
