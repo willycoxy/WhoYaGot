@@ -3,8 +3,6 @@ import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import CssBaseline from '@mui/material/CssBaseline';
 import TextField from '@mui/material/TextField';
-import FormControlLabel from '@mui/material/FormControlLabel';
-import Checkbox from '@mui/material/Checkbox';
 import Link from '@mui/material/Link';
 import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
@@ -12,6 +10,10 @@ import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
+import Auth from '../../utils/auth';
+import { ADD_USER } from '../../utils/mutations';
+import { useMutation } from '@apollo/client';
+import { useState } from 'react';
 
 function Copyright(props) {
     return (
@@ -29,14 +31,35 @@ function Copyright(props) {
   const theme = createTheme();
   
   export default function SignUp() {
-    const handleSubmit = (event) => {
+  const [formState, setFormState] = useState({ username: '', email: '', password: '' });
+
+  const [addUser, { error }] = useMutation(ADD_USER);
+
+  // update state based on form input changes
+  const handleChange = (event) => {
+    const { name, value } = event.target;
+
+    setFormState({
+      ...formState,
+      [name]: value,
+    });
+  };
+    const handleFormSubmit = async event => {
       event.preventDefault();
-      const data = new FormData(event.currentTarget);
-      console.log({
-        email: data.get('email'),
-        password: data.get('password'),
-      });
+    
+      // use try/catch instead of promises to handle errors
+      try {
+        // execute addUser mutation and pass in variable data from form
+        const { data } = await addUser({
+          variables: { ...formState }
+        });
+        console.log(data);
+        Auth.login(data.addUser.token);
+      } catch (e) {
+        console.error(e);
+      }
     };
+    
   
     return (
       <ThemeProvider theme={theme}>
@@ -56,27 +79,18 @@ function Copyright(props) {
             <Typography component="h1" variant="h5">
               Sign up
             </Typography>
-            <Box component="form" noValidate onSubmit={handleSubmit} sx={{ mt: 3 }}>
+            <Box component="form" noValidate onSubmit={handleFormSubmit} sx={{ mt: 3 }}>
               <Grid container spacing={2}>
-                <Grid item xs={12} sm={6}>
-                  <TextField
-                    autoComplete="given-name"
-                    name="firstName"
-                    required
-                    fullWidth
-                    id="firstName"
-                    label="First Name"
-                    autoFocus
-                  />
-                </Grid>
-                <Grid item xs={12} sm={6}>
+                <Grid item xs={12}>
                   <TextField
                     required
                     fullWidth
-                    id="lastName"
-                    label="Last Name"
-                    name="lastName"
-                    autoComplete="family-name"
+                    id="username"
+                    name='username'
+                    label="Username"
+                    type='username'
+                    value={formState.username}
+                    onChange={handleChange}
                   />
                 </Grid>
                 <Grid item xs={12}>
@@ -86,7 +100,10 @@ function Copyright(props) {
                     id="email"
                     label="Email Address"
                     name="email"
-                    autoComplete="email"
+                    // autoComplete="email"
+                    type='email'
+                    value={formState.email}
+                    onChange={handleChange}
                   />
                 </Grid>
                 <Grid item xs={12}>
@@ -97,13 +114,9 @@ function Copyright(props) {
                     label="Password"
                     type="password"
                     id="password"
-                    autoComplete="new-password"
-                  />
-                </Grid>
-                <Grid item xs={12}>
-                  <FormControlLabel
-                    control={<Checkbox value="allowExtraEmails" color="primary" />}
-                    label="I want to receive inspiration, marketing promotions and updates via email."
+                    // autoComplete="new-password"
+                    value={formState.password}
+                    onChange={handleChange}
                   />
                 </Grid>
               </Grid>
@@ -120,6 +133,7 @@ function Copyright(props) {
                   <Link href="#" variant="body2">
                     Already have an account? Sign in
                   </Link>
+                  {error && <div>Sign up failed</div>}
                 </Grid>
               </Grid>
             </Box>

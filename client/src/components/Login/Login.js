@@ -29,14 +29,29 @@ function Copyright(props) {
 const theme = createTheme();
 
 export default function SignIn() {
-  const handleSubmit = (event) => {
+  const handleFormSubmit = async event => {
     event.preventDefault();
-    const data = new FormData(event.currentTarget);
-    console.log({
-      email: data.get('email'),
-      password: data.get('password'),
+  
+    try {
+      const { data } = await login({
+        variables: { ...formState }
+      });
+      console.log(data)
+      Auth.login(data.login.token);
+    } catch (e) {
+      console.error(e);
+    }
+  };
+
+  const handleChange = (event) => {
+    const { name, value } = event.target;
+
+    setFormState({
+      ...formState,
+      [name]: value,
     });
   };
+  
 
   return (
     <ThemeProvider theme={theme}>
@@ -56,16 +71,19 @@ export default function SignIn() {
           <Typography component="h1" variant="h5">
             Sign in
           </Typography>
-          <Box component="form" onSubmit={handleSubmit} noValidate sx={{ mt: 1 }}>
+          <Box component="form" onSubmit={handleFormSubmit} noValidate sx={{ mt: 1 }}>
             <TextField
               margin="normal"
               required
               fullWidth
               id="email"
               label="Email Address"
+              type='email'
               name="email"
               autoComplete="email"
               autoFocus
+              value={formState.email}
+              onChange={handleChange}
             />
             <TextField
               margin="normal"
@@ -76,6 +94,8 @@ export default function SignIn() {
               type="password"
               id="password"
               autoComplete="current-password"
+              onChange={handleChange}
+              value={formState.password}
             />
             <FormControlLabel
               control={<Checkbox value="remember" color="primary" />}

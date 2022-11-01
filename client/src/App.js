@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { ApolloProvider, ApolloClient, InMemoryCache, createHttpLink } from '@apollo/client';
 import { setContext } from '@apollo/client/link/context';
 import Header from './components/Header';
-import Signup from './pages/Signup';
+import Signup from './components/Signup/Signup';
 import Login from './pages/Login';
 import Home from './pages/Home';
 import NoMatch from './pages/NoMatch';

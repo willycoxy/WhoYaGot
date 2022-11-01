@@ -4,6 +4,7 @@ import Player from "../components/Player";
 import { useQuery } from '@apollo/client';
 import { QUERY_PLAYERS, QUERY_USERS } from '../utils/queries';
 
+
 const Home = () => {
   
   const { loading, data } = useQuery(QUERY_PLAYERS);
