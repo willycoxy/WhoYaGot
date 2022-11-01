@@ -13,6 +13,8 @@ import {
 } from '@ant-design/icons';
 import { Breadcrumb, Layout, Menu } from 'antd';
 import React, { useState } from 'react';
+import Home from '../../pages/Home';
+
 const { Header, Content, Footer, Sider } = Layout;
 function getItem(label, key, icon, children) {
   return {
@@ -71,7 +73,7 @@ const AppNavBar = () => {
               minHeight: 360,
             }}
           >
-            Bill is a cat.
+            <Home />
           </div>
         </Content>
         <Footer
