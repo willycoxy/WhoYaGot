@@ -12,6 +12,10 @@ import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
+import { useMutation } from '@apollo/client';
+import { LOGIN_USER } from '../../utils/mutations';
+import Auth from '../../utils/auth';
+import { useState } from 'react';
 
 function Copyright(props) {
   return (
@@ -28,21 +32,12 @@ function Copyright(props) {
 
 const theme = createTheme();
 
-export default function SignIn() {
-  const handleFormSubmit = async event => {
-    event.preventDefault();
-  
-    try {
-      const { data } = await login({
-        variables: { ...formState }
-      });
-      console.log(data)
-      Auth.login(data.login.token);
-    } catch (e) {
-      console.error(e);
-    }
-  };
+const Login = () => {
+  const [formState, setFormState] = useState({ email: '', password: '' });
 
+  const [login, { error }] = useMutation(LOGIN_USER);
+
+  // update state based on form input changes
   const handleChange = (event) => {
     const { name, value } = event.target;
 
@@ -51,6 +46,21 @@ export default function SignIn() {
       [name]: value,
     });
   };
+
+// submit form
+const handleFormSubmit = async event => {
+  event.preventDefault();
+
+  try {
+    const { data } = await login({
+      variables: { ...formState }
+    });
+    console.log(data)
+    Auth.login(data.login.token);
+  } catch (e) {
+    console.error(e);
+  }
+};
   
 
   return (
@@ -80,7 +90,6 @@ export default function SignIn() {
               label="Email Address"
               type='email'
               name="email"
-              autoComplete="email"
               autoFocus
               value={formState.email}
               onChange={handleChange}
@@ -93,9 +102,8 @@ export default function SignIn() {
               label="Password"
               type="password"
               id="password"
-              autoComplete="current-password"
-              onChange={handleChange}
               value={formState.password}
+              onChange={handleChange}
             />
             <FormControlLabel
               control={<Checkbox value="remember" color="primary" />}
@@ -110,15 +118,16 @@ export default function SignIn() {
               Sign In
             </Button>
             <Grid container>
-              <Grid item xs>
-                <Link href="#" variant="body2">
+              {/* <Grid item xs>
+                <Link href="/forgot" variant="body2">
                   Forgot password?
                 </Link>
-              </Grid>
+              </Grid> */}
               <Grid item>
-                <Link href="#" variant="body2">
+                <Link href="/signup" variant="body2">
                   {"Don't have an account? Sign Up"}
                 </Link>
+                {error && <div>Login failed</div>}
               </Grid>
             </Grid>
           </Box>
@@ -128,3 +137,4 @@ export default function SignIn() {
     </ThemeProvider>
   );
 }
+export default Login;

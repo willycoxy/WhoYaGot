@@ -6,7 +6,7 @@ import { ApolloProvider, ApolloClient, InMemoryCache, createHttpLink } from '@ap
 import { setContext } from '@apollo/client/link/context';
 import Header from './components/Header';
 import Signup from './components/Signup/Signup';
-import Login from './pages/Login';
+import Login from './components/Login/Login';
 import Home from './pages/Home';
 import NoMatch from './pages/NoMatch';
 
