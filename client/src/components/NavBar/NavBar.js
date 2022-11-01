@@ -14,6 +14,7 @@ import {
 import { Breadcrumb, Layout, Menu } from 'antd';
 import React, { useState } from 'react';
 import Home from '../../pages/Home';
+import { Link } from  "react-router-dom"
 
 const { Header, Content, Footer, Sider } = Layout;
 function getItem(label, key, icon, children) {
@@ -32,7 +33,9 @@ const items = [
   ]),
   getItem('My Team', 'sub2', <UserOutlined />, [getItem('Team 1', '6'), getItem('Team 2', '8')]),
   getItem('Users Teams', 'sub3', <UserOutlined />),
-  getItem('Signout', 'sub4', <PoweroffOutlined />),
+  getItem('Signup', 'sub4', <Link to="/signup"></Link>),
+  getItem('Login', 'sub5', <Link to="/login"></Link>),
+  getItem('Signout', 'sub6', <PoweroffOutlined />),
 ];
 const AppNavBar = () => {
   const [collapsed, setCollapsed] = useState(false);
@@ -43,7 +46,7 @@ const AppNavBar = () => {
       }}
     >
       <Sider collapsible collapsed={collapsed} onCollapse={(value) => setCollapsed(value)}>
-        <div className="logo" />
+        <Link to="/home"><div className="logo" /></Link>
         <Menu theme="dark" defaultSelectedKeys={['1']} mode="inline" items={items} />
       </Sider>
       <Layout className="site-layout">
