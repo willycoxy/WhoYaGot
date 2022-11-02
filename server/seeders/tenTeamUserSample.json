@@ -1,0 +1,569 @@
+[
+    { 
+        "username" : "Molly48", 
+        "email" : "Molly48_Waters59@hotmail.com", 
+        "password" : "kGjRfUNWUIRwfS_", 
+        "players" : [ 
+            {
+              "_id": "635df343b3423009a42feb84",
+              "TeamID": 1,
+              "PlayerID": 30000691,
+              "Name": "Nick Foligno",
+              "Team": "BOS",
+              "Position": "LW",
+              "FantasyPoints": 14.2
+            },{
+            "_id": "635defe4db329c9264dc4b9c",
+            "TeamID": 1,
+            "PlayerID": 30000065,
+            "Name": "Patrice Bergeron",
+            "Team": "BOS",
+            "Position": "C",
+            "FantasyPoints": 35.5
+     },
+     {
+       "_id": "635df343b3423009a42feb83",
+       "TeamID": 1,
+       "PlayerID": 30000607,
+       "Name": "David Pastrnak",
+       "Team": "BOS",
+       "Position": "RW",
+       "FantasyPoints": 45.1
+     },
+     {
+       "_id": "635df343b3423009a42feb80",
+       "TeamID": 1,
+       "PlayerID": 30000218,
+       "Name": "Jakub Zboril",
+       "Team": "BOS",
+       "Position": "D",
+       "FantasyPoints": 4.2
+    },
+    {
+        "_id": "635df343b3423009a42feb81",
+        "TeamID": 1,
+        "PlayerID": 30000525,
+        "Name": "Mike Reilly",
+        "Team": "BOS",
+        "Position": "D",
+        "FantasyPoints": 10.4
+      },
+      {
+        "_id": "635df6380cd5737fe40dc895",
+        "TeamID": 1,
+        "PlayerID": 30003991,
+        "Name": "Jeremy Swayman",
+        "Team": "BOS",
+        "Position": "G",
+        "FantasyPoints": 1.4
+      }] 
+    },
+    { 
+        "username" : "Katlyn85", 
+        "email" : "Katlyn8550@gmail.com", 
+        "password" : "otK5YtXpcalD1cm", 
+        "players" : [{
+            "_id": "635dfa4357b3ba09d42b6bb1",
+            "TeamID": 2,
+            "PlayerID": 30000642,
+            "Name": "Jeff Skinner",
+            "Team": "BUF",
+            "Position": "LW",
+            "FantasyPoints": 11.3
+          },
+          {
+            "_id": "635dfa4357b3ba09d42b6bb2",
+            "TeamID": 2,
+            "PlayerID": 30000854,
+            "Name": "Riley Sheahan",
+            "Team": "BUF",
+            "Position": "C",
+            "FantasyPoints": 0
+          },
+          {
+            "_id": "635dfa4357b3ba09d42b6bb3",
+            "TeamID": 2,
+            "PlayerID": 30001002,
+            "Name": "Kyle Okposo",
+            "Team": "BUF",
+            "Position": "RW",
+            "FantasyPoints": 7.3
+          }, {
+            "_id": "635dfa4357b3ba09d42b6bbd",
+            "TeamID": 2,
+            "PlayerID": 30003657,
+            "Name": "Henri Jokiharju",
+            "Team": "BUF",
+            "Position": "D",
+            "FantasyPoints": 5.2
+          },
+          {
+            "_id": "635dfa4357b3ba09d42b6bbe",
+            "TeamID": 2,
+            "PlayerID": 30003750,
+            "Name": "Rasmus Dahlin",
+            "Team": "BUF",
+            "Position": "D",
+            "FantasyPoints": 40.9
+          },{
+            "_id": "635dfa4357b3ba09d42b6baf",
+            "TeamID": 2,
+            "PlayerID": 30000432,
+            "Name": "Craig Anderson",
+            "Team": "BUF",
+            "Position": "G",
+            "FantasyPoints": 14
+          }] 
+    },
+    { 
+        "username" : "Lessie_Kautzer61", 
+        "email" : "Lessie_Kautzer61_Walker81@hotmail.com", 
+        "password" : "AP3EUTRZoxzsiHn", 
+        "players" : [{
+            "_id": "635dfa4357b3ba09d42b6bcb",
+            "TeamID": 3,
+            "PlayerID": 30000397,
+            "Name": "David Perron",
+            "Team": "DET",
+            "Position": "LW",
+            "FantasyPoints": 19.6
+          },
+          {
+            "_id": "635dfa4357b3ba09d42b6bcc",
+            "TeamID": 3,
+            "PlayerID": 30000405,
+            "Name": "Oskar Sundqvist",
+            "Team": "DET",
+            "Position": "C",
+            "FantasyPoints": 12.9
+    },{
+        "_id": "635dfa4357b3ba09d42b6bdb",
+        "TeamID": 3,
+        "PlayerID": 30004079,
+        "Name": "Filip Zadina",
+        "Team": "DET",
+        "Position": "RW",
+        "FantasyPoints": 2.1
+      },
+    {
+      "_id": "635dfa4357b3ba09d42b6bd2",
+      "TeamID": 3,
+      "PlayerID": 30001063,
+      "Name": "Ben Chiarot",
+      "Team": "DET",
+      "Position": "D",
+      "FantasyPoints": 12.9
+    },
+    {
+      "_id": "635dfa4357b3ba09d42b6bd3",
+      "TeamID": 3,
+      "PlayerID": 30001078,
+      "Name": "Jordan Oesterle",
+      "Team": "DET",
+      "Position": "D",
+      "FantasyPoints": 0
+    },
+    {
+      "_id": "635dfa4357b3ba09d42b6bd4",
+      "TeamID": 3,
+      "PlayerID": 30002590,
+      "Name": "Alex Nedeljkovic",
+      "Team": "DET",
+      "Position": "G",
+      "FantasyPoints": 7.3
+    }] 
+    },
+    { 
+        "username" : "Elton_Heaney", 
+        "email" : "Elton_Heaney.Kemmer6@yahoo.com", 
+        "password" : "3dVgRgSQmrGLaQE", 
+        "players" : [ {
+            "_id": "635dfa4357b3ba09d42b6be9",
+            "TeamID": 4,
+            "PlayerID": 30001786,
+            "Name": "Evgenii Dadonov",
+            "Team": "MON",
+            "Position": "RW",
+            "FantasyPoints": 1
+          },{
+            "_id": "635dfa4357b3ba09d42b6be7",
+            "TeamID": 4,
+            "PlayerID": 30000942,
+            "Name": "Christian Dvorak",
+            "Team": "MON",
+            "Position": "C",
+            "FantasyPoints": 4.5
+          },{
+            "_id": "635dfa4357b3ba09d42b6be4",
+            "TeamID": 4,
+            "PlayerID": 30000465,
+            "Name": "Mike Hoffman",
+            "Team": "MON",
+            "Position": "LW",
+            "FantasyPoints": 10.4
+          },{
+            "_id": "635dfa4357b3ba09d42b6be2",
+            "TeamID": 4,
+            "PlayerID": 30000227,
+            "Name": "Mike Matheson",
+            "Team": "MON",
+            "Position": "D",
+            "FantasyPoints": 0
+          },
+          {
+            "_id": "635dfa4357b3ba09d42b6be3",
+            "TeamID": 4,
+            "PlayerID": 30000418,
+            "Name": "David Savard",
+            "Team": "MON",
+            "Position": "D",
+            "FantasyPoints": 13.4
+          },
+          {
+            "_id": "635dfa4357b3ba09d42b6be5",
+            "TeamID": 4,
+            "PlayerID": 30000665,
+            "Name": "Jake Allen",
+            "Team": "MON",
+            "Position": "G",
+            "FantasyPoints": 18.2
+          }] 
+    },
+    { 
+        "username" : "Josue67", 
+        "email" : "Josue6785@yahoo.com", 
+        "password" : "BNsmR75BHDH4na3", 
+        "players" : [    {
+            "_id": "635dfa4357b3ba09d42b6c02",
+            "TeamID": 5,
+            "PlayerID": 30003077,
+            "Name": "Tyler Motte",
+            "Team": "OTT",
+            "Position": "LW",
+            "FantasyPoints": 25.5
+          },{
+            "_id": "635dfa4357b3ba09d42b6c00",
+            "TeamID": 5,
+            "PlayerID": 30001082,
+            "Name": "Derick Brassard",
+            "Team": "OTT",
+            "Position": "C",
+            "FantasyPoints": 3.1
+          },
+          {
+            "_id": "635dfa4357b3ba09d42b6c01",
+            "TeamID": 5,
+            "PlayerID": 30003032,
+            "Name": "Mathieu Joseph",
+            "Team": "OTT",
+            "Position": "RW",
+            "FantasyPoints": 10.4
+          },{
+            "_id": "635dfa4357b3ba09d42b6bfe",
+            "TeamID": 5,
+            "PlayerID": 30000902,
+            "Name": "Nick Holden",
+            "Team": "OTT",
+            "Position": "D",
+            "FantasyPoints": 7
+          },{
+            "_id": "635dfa4357b3ba09d42b6bfc",
+            "TeamID": 5,
+            "PlayerID": 30000446,
+            "Name": "Thomas Chabot",
+            "Team": "OTT",
+            "Position": "D",
+            "FantasyPoints": 21.3
+          },
+          {
+            "_id": "635dfa4357b3ba09d42b6bfd",
+            "TeamID": 5,
+            "PlayerID": 30000668,
+            "Name": "Anton Forsberg",
+            "Team": "OTT",
+            "Position": "G",
+            "FantasyPoints": 17.9
+          }] 
+    },
+    { 
+        "username" : "Jaron98", 
+        "email" : "Jaron98_Will72@hotmail.com", 
+        "password" : "vNVT_y10PBpVaUV", 
+        "players" : [  {
+            "_id": "635dfa4357b3ba09d42b6c13",
+            "TeamID": 6,
+            "PlayerID": 30000477,
+            "Name": "Nick Paul",
+            "Team": "TB",
+            "Position": "LW",
+            "FantasyPoints": 23
+          },{
+            "_id": "635dfa4357b3ba09d42b6c17",
+            "TeamID": 6,
+            "PlayerID": 30000742,
+            "Name": "Brayden Point",
+            "Team": "TB",
+            "Position": "C",
+            "FantasyPoints": 25.9
+          },{
+            "_id": "635dfa4357b3ba09d42b6c1b",
+            "TeamID": 6,
+            "PlayerID": 30001047,
+            "Name": "Nikita Kucherov",
+            "Team": "TB",
+            "Position": "RW",
+            "FantasyPoints": 33
+          },
+          {
+            "_id": "635dfa4357b3ba09d42b6c14",
+            "TeamID": 6,
+            "PlayerID": 30000650,
+            "Name": "Ian Cole",
+            "Team": "TB",
+            "Position": "D",
+            "FantasyPoints": 3.5
+          },
+          {
+            "_id": "635dfa4357b3ba09d42b6c15",
+            "TeamID": 6,
+            "PlayerID": 30000737,
+            "Name": "Victor Hedman",
+            "Team": "TB",
+            "Position": "D",
+            "FantasyPoints": 27.6
+          },{
+            "_id": "635dfa4357b3ba09d42b6c19",
+            "TeamID": 6,
+            "PlayerID": 30000771,
+            "Name": "Brian Elliott",
+            "Team": "TB",
+            "Position": "G",
+            "FantasyPoints": 11.7
+          }] 
+    },
+    { 
+        "username" : "Colt.Windler", 
+        "email" : "Colt.Windler_Corwin@hotmail.com", 
+        "password" : "bBDsrGqpDHI1YTa", 
+        "players" : [{
+            "_id": "635dfa4357b3ba09d42b6c2e",
+            "TeamID": 7,
+            "PlayerID": 30000144,
+            "Name": "Kyle Clifford",
+            "Team": "TOR",
+            "Position": "LW",
+            "FantasyPoints": 2.8
+          },
+          {
+            "_id": "635dfa4357b3ba09d42b6c2f",
+            "TeamID": 7,
+            "PlayerID": 30000241,
+            "Name": "Calle Jarnkrok",
+            "Team": "TOR",
+            "Position": "C",
+            "FantasyPoints": 7
+          },{
+            "_id": "635dfa4357b3ba09d42b6c2b",
+            "TeamID": 7,
+            "PlayerID": 30000061,
+            "Name": "Wayne Simmonds",
+            "Team": "TOR",
+            "Position": "RW",
+            "FantasyPoints": 2.1
+          },
+          {
+            "_id": "635dfa4357b3ba09d42b6c2c",
+            "TeamID": 7,
+            "PlayerID": 30000106,
+            "Name": "T.J. Brodie",
+            "Team": "TOR",
+            "Position": "D",
+            "FantasyPoints": 5.6
+          },
+          {
+            "_id": "635dfa4357b3ba09d42b6c2d",
+            "TeamID": 7,
+            "PlayerID": 30000111,
+            "Name": "Mark Giordano",
+            "Team": "TOR",
+            "Position": "D",
+            "FantasyPoints": 16.7
+          },
+          {
+            "_id": "635dfa4357b3ba09d42b6c33",
+            "TeamID": 7,
+            "PlayerID": 30000629,
+            "Name": "Matt Murray",
+            "Team": "TOR",
+            "Position": "G",
+            "FantasyPoints": -0.2
+     } ] 
+    },
+    { 
+        "username" : "Berta.Schmeler15", 
+        "email" : "Berta.Schmeler15_Hackett93@hotmail.com", 
+        "password" : "_cbdQwR8Vjn4wBk", 
+        "players" : [   {
+            "_id": "635dfa4357b3ba09d42b6c55",
+            "TeamID": 8,
+            "PlayerID": 30003358,
+            "Name": "Rudolfs Balcers",
+            "Team": "FLA",
+            "Position": "LW",
+            "FantasyPoints": 12.1
+          },{
+            "_id": "635dfa4357b3ba09d42b6c56",
+            "TeamID": 8,
+            "PlayerID": 30003681,
+            "Name": "Eetu Luostarinen",
+            "Team": "FLA",
+            "Position": "C",
+            "FantasyPoints": 25
+          },    {
+            "_id": "635dfa4357b3ba09d42b6c4a",
+            "TeamID": 8,
+            "PlayerID": 30000656,
+            "Name": "Patric Hornqvist",
+            "Team": "FLA",
+            "Position": "RW",
+            "FantasyPoints": 7.7
+          }, {
+            "_id": "635dfa4357b3ba09d42b6c5a",
+            "TeamID": 8,
+            "PlayerID": 30004935,
+            "Name": "Matt Kiersted",
+            "Team": "FLA",
+            "Position": "D",
+            "FantasyPoints": 2.4
+          },
+          {
+            "_id": "635dfa4357b3ba09d42b6c57",
+            "TeamID": 8,
+            "PlayerID": 30003951,
+            "Name": "Lucas Carlsson",
+            "Team": "FLA",
+            "Position": "D",
+            "FantasyPoints": 0
+          },{
+            "_id": "635dfa4357b3ba09d42b6c4b",
+            "TeamID": 8,
+            "PlayerID": 30000667,
+            "Name": "Sergei Bobrovsky",
+            "Team": "FLA",
+            "Position": "G",
+            "FantasyPoints": 16.4
+          }] 
+    },
+    { 
+        "username" : "Kaley35", 
+        "email" : "Kaley35_Carroll@yahoo.com", 
+        "password" : "OodrBk3d1t5Ddhb", 
+        "players" : [         {
+            "_id": "635dfa4357b3ba09d42b6c64",
+            "TeamID": 9,
+            "PlayerID": 30000871,
+            "Name": "Teuvo Teravainen",
+            "Team": "CAR",
+            "Position": "LW",
+            "FantasyPoints": 16.7
+          },{
+            "_id": "635dfa4357b3ba09d42b6c5d",
+            "TeamID": 9,
+            "PlayerID": 30000321,
+            "Name": "Derek Stepan",
+            "Team": "CAR",
+            "Position": "C",
+            "FantasyPoints": 11.7
+          },{
+            "_id": "635dfa4357b3ba09d42b6c5f",
+            "TeamID": 9,
+            "PlayerID": 30000331,
+            "Name": "Jesper Fast",
+            "Team": "CAR",
+            "Position": "RW",
+            "FantasyPoints": 3.5
+          },
+          {
+            "_id": "635dfa4357b3ba09d42b6c5e",
+            "TeamID": 9,
+            "PlayerID": 30000324,
+            "Name": "Brady Skjei",
+            "Team": "CAR",
+            "Position": "D",
+            "FantasyPoints": 19.6
+          },  {
+            "_id": "635dfa4357b3ba09d42b6c5b",
+            "TeamID": 9,
+            "PlayerID": 30000127,
+            "Name": "Brent Burns",
+            "Team": "CAR",
+            "Position": "D",
+            "FantasyPoints": 15.9
+          },
+          {
+            "_id": "635dfa4357b3ba09d42b6c5c",
+            "TeamID": 9,
+            "PlayerID": 30000296,
+            "Name": "Antti Raanta",
+            "Team": "CAR",
+            "Position": "G",
+            "FantasyPoints": 5.9
+     } ] 
+    },
+    { 
+        "username" : "Bryana.Hackett", 
+        "email" : "Bryana.Hackett94@yahoo.com", 
+        "password" : "WZ3brF0TKThmwU8", 
+        "players" : [   {
+            "_id": "635dfa4357b3ba09d42b6c75",
+            "TeamID": 10,
+            "PlayerID": 30000810,
+            "Name": "Erik Haula",
+            "Team": "NJ",
+            "Position": "LW",
+            "FantasyPoints": 14.2
+          },{
+            "_id": "635dfa4357b3ba09d42b6c7e",
+            "TeamID": 10,
+            "PlayerID": 30003139,
+            "Name": "Michael McLeod",
+            "Team": "NJ",
+            "Position": "C",
+            "FantasyPoints": 5.2
+          }, {
+            "_id": "635dfa4357b3ba09d42b6c7f",
+            "TeamID": 10,
+            "PlayerID": 30003165,
+            "Name": "Nate Bastian",
+            "Team": "NJ",
+            "Position": "RW",
+            "FantasyPoints": 5.2
+          },
+          {
+            "_id": "635dfa4357b3ba09d42b6c72",
+            "TeamID": 10,
+            "PlayerID": 30000070,
+            "Name": "Dougie Hamilton",
+            "Team": "NJ",
+            "Position": "D",
+            "FantasyPoints": 22.5
+          },
+          {
+            "_id": "635dfa4357b3ba09d42b6c73",
+            "TeamID": 10,
+            "PlayerID": 30000207,
+            "Name": "Damon Severson",
+            "Team": "NJ",
+            "Position": "D",
+            "FantasyPoints": 8
+          } ,{
+            "_id": "635dfa4357b3ba09d42b6c7a",
+            "TeamID": 10,
+            "PlayerID": 30002600,
+            "Name": "Vitek Vanecek",
+            "Team": "NJ",
+            "Position": "G",
+            "FantasyPoints": 2.1
+    }] 
+    }
+]
