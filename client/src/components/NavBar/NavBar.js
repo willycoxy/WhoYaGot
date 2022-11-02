@@ -56,7 +56,7 @@ const items = [
       getItem('Golden Knights','35',<Link to="/GoldenKnights"/> ),
       getItem('Kraken','36',<Link to="/Kraken"/> ),
     ]),
-      getItem('My Team', 'sub2', <UserOutlined />, [getItem('Team 1', '6'), getItem('Team 2', '8')]),
+      getItem('My Team', 'sub2', <UserOutlined />, [getItem('Team 1', '37'), getItem('Team 2', '38')]),
       getItem('Users Teams', 'sub3', <UserOutlined />),
       getItem('Signin', 'sub4', <Link to="/signup"/>  ),
       getItem('Login', 'sub5', <Link to="/login"/>  ),
