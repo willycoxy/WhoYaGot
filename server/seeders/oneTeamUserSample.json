@@ -1,0 +1,61 @@
+[
+    { 
+        "username" : "Molly48", 
+        "email" : "Molly48_Waters59@hotmail.com", 
+        "password" : "kGjRfUNWUIRwfS_", 
+        "players" : [ 
+            {
+              "_id": "635df343b3423009a42feb84",
+              "TeamID": 1,
+              "PlayerID": 30000691,
+              "Name": "Nick Foligno",
+              "Team": "BOS",
+              "Position": "LW",
+              "FantasyPoints": 14.2
+            },{
+            "_id": "635defe4db329c9264dc4b9c",
+            "TeamID": 1,
+            "PlayerID": 30000065,
+            "Name": "Patrice Bergeron",
+            "Team": "BOS",
+            "Position": "C",
+            "FantasyPoints": 35.5
+     },
+     {
+       "_id": "635df343b3423009a42feb83",
+       "TeamID": 1,
+       "PlayerID": 30000607,
+       "Name": "David Pastrnak",
+       "Team": "BOS",
+       "Position": "RW",
+       "FantasyPoints": 45.1
+     },
+     {
+       "_id": "635df343b3423009a42feb80",
+       "TeamID": 1,
+       "PlayerID": 30000218,
+       "Name": "Jakub Zboril",
+       "Team": "BOS",
+       "Position": "D",
+       "FantasyPoints": 4.2
+    },
+    {
+        "_id": "635df343b3423009a42feb81",
+        "TeamID": 1,
+        "PlayerID": 30000525,
+        "Name": "Mike Reilly",
+        "Team": "BOS",
+        "Position": "D",
+        "FantasyPoints": 10.4
+      },
+      {
+        "_id": "635df6380cd5737fe40dc895",
+        "TeamID": 1,
+        "PlayerID": 30003991,
+        "Name": "Jeremy Swayman",
+        "Team": "BOS",
+        "Position": "G",
+        "FantasyPoints": 1.4
+      }] 
+    }
+]
